@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.formbg {
+  height: 30vh;
+  width: 100%;
+  background-color: #009688;
+}
+
+.formcontent {
+  color: rgba(0, 0, 0, .87);
+  padding: 20px 35px;
+}
+
+.formbox {
+  margin: auto;
+  width: 600px;
+}
+
+.formcard {
+  background-color: #fff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  word-wrap: break-word;
+}
+
+.formcard:first-of-type {
+  margin-top: -150px
+}
+
+.container {
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: black;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #f4f4f4;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  color: #555;
+  font-weight: bold;
+}
+
+td {
+  color: #555;
+}
+
+table.highlight tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.btn {
+  background-color: #1e88e5;
+  text-transform: none;
+  margin-left: 5px;
+}
+
+.btn:hover {
+  background-color: #1565c0;
+}
